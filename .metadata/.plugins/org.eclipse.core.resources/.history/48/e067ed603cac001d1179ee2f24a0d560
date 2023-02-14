@@ -1,0 +1,14 @@
+
+public class Soru1 {
+
+	public static String yildiz(String yildiz) {
+		for (int i=1; i<=7; i++) {
+			System.out.println("*");
+		}
+		return yildiz;
+	}
+	public static void main(String[] args) {
+		yildiz(yildiz);
+	}
+
+}

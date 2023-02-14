@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Soru3 {
+
+	public static void karakterSayici() {
+//		Scanner input=new Scanner(System.in);
+//		System.out.println("bir cümle giriniz");
+//		String yazi=input.nextLine();
+//		char ch=input.next().charAt(0);
+		String yazi= "ayath";
+		System.out.println(yazi.indexOf("a" ,(yazi.length()-1)));
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	karakterSayici();
+	}
+
+}

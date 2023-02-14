@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Soru4 {
+
+	
+	public static void main(String[] args) {
+		Scanner input= new Scanner(System.in);
+		boolean kontrol= true;
+		while(kontrol) {
+			System.out.println("bir seçim yapınız");
+			System.out.println("bir seçim yapınız");
+			System.out.println("bir seçim yapınız");
+			System.out.println("bir seçim yapınız");
+			System.out.println("bir seçim yapınız");
+			System.out.println("bir seçim yapınız");
+			System.out.println("bir seçim yapınız");
+			System.out.println("bir seçim yapınız");
+			int secim=input.nextInt();
+			switch(secim) {
+			case 1: 
+				System.out.println("Karenin uzunluğunu giriniz");
+				int kareUzunluk=input.nextInt();
+				int kareAlan=kareUzunluk*kareUzunluk;
+				System.out.println(kareAlan);
+				break;
+			}
+		}
+		
+
+	
+	}
+}

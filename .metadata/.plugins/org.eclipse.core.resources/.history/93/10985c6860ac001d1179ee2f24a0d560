@@ -1,0 +1,29 @@
+
+public class Soru2 {
+
+	public static int[] tekrar(int[] dizi) {
+		int[] dizi1= new int[dizi.length];
+		
+		int sayac=0;
+		for (int i=0; i<dizi.length; i++) {
+			for(int j=0; j<dizi.length; j++) {
+				if( (!(i==j)) && (dizi[i]==dizi[j])) {
+					sayac++;
+				}
+				
+			}
+				
+		}
+		System.out.println(sayac);
+		return dizi1;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] dizi= {1,2,2,3,2,4};
+		int[] dizi1 =tekrar(dizi);
+		
+		
+	}
+
+}

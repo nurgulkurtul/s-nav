@@ -1,0 +1,14 @@
+
+public class Soru1 {
+
+	public static void yldz() {
+		for (int i=1; i<=7; i++) {
+			System.out.println("*");
+		}
+		
+	}
+	public static void main(String[] args) {
+		yldz();
+	}
+
+}
